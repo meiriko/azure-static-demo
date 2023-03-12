@@ -39,6 +39,6 @@ jobs:
         id: fa
         with:
           app-name: 'azuredemomshttptrigger1'
-          slot-name: 'production'
+          slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_6d6291857f2b41f1b8e7c7c1b2fac690 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_76B07265A8FA4D63B1CD24AB71F71377 }}

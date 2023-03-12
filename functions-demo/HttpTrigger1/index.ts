@@ -7,10 +7,10 @@ const httpTrigger: AzureFunction = async function (
   context.log("HTTP trigger function processed a request.");
   const name = req.query.name || (req.body && req.body.name);
   const responseMessage = name
-    ? "Hello-xxx-zzz-yyy, " +
+    ? "Hello-AAA-bbb-CCC, " +
       name +
       ". This HTTP triggered function executed successfully."
-    : "XXX YYYYY ZZZZZ This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
+    : "A B C This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
 
   context.res = {
     // status: 200, /* Defaults to 200 */
